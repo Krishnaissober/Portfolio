@@ -35,7 +35,7 @@ const AboutSection = () => {
             <div className='text-left'>
             <h4 className='font-semibold text-lg'>Web Devlopment</h4>
             <p className='text-muted-foreground'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, odio?
+              Build responsive and modern websites using HTML, CSS, JavaScript, React, and Tailwind CSS. Focused on clean UI, performance, and mobile-friendly design.
             </p>
             <div/>
             </div>
@@ -49,8 +49,7 @@ const AboutSection = () => {
              <div className='text-left'>
             <h4 className='font-semibold text-lg'>UI/UX Design</h4>
             <p className='text-muted-foreground'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, odio?
-            </p>
+              Design user-friendly interfaces with attention to layout, readability, and smooth user experience. Creating modern and minimal web designs.            </p>
             <div/>
             </div>
                 </div>
@@ -63,7 +62,7 @@ const AboutSection = () => {
 <div className='text-left'>
             <h4 className='font-semibold text-lg'>Project Managment</h4>
             <p className='text-muted-foreground'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, odio?
+              Manage personal and collaborative projects with proper planning, structured workflow, and version control using Git and GitHub.
             </p>
             <div/>
             </div>

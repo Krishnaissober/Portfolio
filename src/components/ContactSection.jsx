@@ -68,7 +68,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4>Address</h4>
-                  <p className='text-muted-foreground'>Krishna Enclave, Dera-Bassi</p>
+                  <p className='text-muted-foreground'>Dera-Bassi, Punjab</p>
                 </div>
               </div>
             </div>
