@@ -7,18 +7,18 @@ const Skills =[
     {name:'JavaScript', level: 60, category: 'Frontend'},
     {name:'Tailwind', level: 70, category: 'Frontend'},
     {name:'React', level: 30, category: 'Frontend'},
-    //Backend
-    {name:'React', level: 30, category: 'backend'},
-    {name:'React', level: 30, category: 'backend'},
-    {name:'React', level: 30, category: 'backend'},
-    {name:'React', level: 30, category: 'backend'},
+    // //Backend
+    // {name:'React', level: 30, category: 'backend'},
+    // {name:'React', level: 30, category: 'backend'},
+    // {name:'React', level: 30, category: 'backend'},
+    // {name:'React', level: 30, category: 'backend'},
     //Tools
     {name:'Git/GitHub', level: 50, category: 'Tools'},
     {name:'VS Code', level: 90, category: 'Tools'},
     {name:'Adobe PhotoShop', level: 60, category: 'Tools'},
     {name:'AOS', level: 80, category: 'Tools'},
 ]
-const categories =['all', 'Frontend', 'backend', 'Tools']
+const categories =['all', 'Frontend', 'Tools']
 const SkillSection = () => {
     const [activeCategory, setActiveCategory] = useState('all')
     const filteredSkills = Skills.filter((skill) => activeCategory === 'all' || skill.category === activeCategory);
